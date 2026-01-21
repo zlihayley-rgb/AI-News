@@ -47,6 +47,29 @@ platforms:
     - id: "jin10"
       name: "金十数据"
 
+    - id: "bloomberg"
+      name: "彭博社"
+      enabled: true
+    - id: "reuters"
+      name: "路透社"
+      enabled: true
+    - id: "ft"
+      name: "金融时报"
+      enabled: true
+    - id: "wsj"
+      name: "华尔街日报"
+      enabled: true
+    - id: "cnbc"
+      name: "CNBC"
+      enabled: true
+    - id: "yahoo-finance"
+      name: "雅虎财经"
+      enabled: true
+    - id: "google-news"
+      name: "谷歌新闻"
+      enabled: true
+
+
 
 # ===============================================================
 # 3. 数据源 - RSS 订阅
