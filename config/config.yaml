@@ -166,7 +166,6 @@ display:
     - hotlist                         # 2️⃣ 热榜区域（关键词匹配）
     - rss                             # 3️⃣ RSS 订阅区域
     - standalone                      # 4️⃣ 独立展示区
-    - ai_analysis                     # 5️⃣ AI 分析区域
 
   # 推送区域开关
   # 控制各区域是否启用（配合 region_order 使用）
@@ -180,7 +179,6 @@ display:
                                       # 关闭后跳过分析，但独立展示区不受影响
 
     standalone: false                 # 独立展示区（完整热榜/RSS，不受关键词过滤）
-    ai_analysis: true                 # AI 分析区域
 
   # 📋 独立展示区配置（仅在 regions.standalone: true 时生效）
   # 用途：将指定平台的完整热榜/RSS 单独展示，不受关键词过滤影响
