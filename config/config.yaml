@@ -47,28 +47,6 @@ platforms:
     - id: "jin10"
       name: "金十数据"
 
-    - id: "bloomberg"
-      name: "彭博社"
-      enabled: true
-    - id: "reuters"
-      name: "路透社"
-      enabled: true
-    - id: "ft"
-      name: "金融时报"
-      enabled: true
-    - id: "wsj"
-      name: "华尔街日报"
-      enabled: true
-    - id: "cnbc"
-      name: "CNBC"
-      enabled: true
-    - id: "yahoo-finance"
-      name: "雅虎财经"
-      enabled: true
-    - id: "google-news"
-      name: "谷歌新闻"
-      enabled: true
-
 
 
 # ===============================================================
@@ -117,7 +95,58 @@ rss:
     - id: "yahoo-finance"
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
-      enabled: false                  # 禁用
+      enabled: true
+      # max_age_days: 1
+    
+
+    - id: "reuters-tech"
+      name: "路透社科技"
+      url: "https://www.reutersagency.com/feed/?best-topics=tech&post_type=best"
+      enabled: true
+      # max_age_days: 1
+      
+    
+    - id: "techcrunch"
+      name: "TechCrunch"
+      url: "https://techcrunch.com/feed/"
+      enabled: true
+      # max_age_days: 1
+    
+    - id: "the-verge"
+      name: "The Verge"
+      url: "https://www.theverge.com/rss/index.xml"
+      enabled: true
+      # max_age_days: 1
+    
+    - id: "wired"
+      name: "Wired"
+      url: "https://www.wired.com/feed/rss"
+      enabled: true
+      # max_age_days: 1
+
+    - id: "futu-news"
+      name: "富途牛牛新闻"
+      url: "https://news.futunn.com/rss"
+      enabled: true
+      # max_age_days: 1
+    
+    - id: "futu-tech"
+      name: "富途科技新闻"
+      url: "https://news.futunn.com/tech/rss"
+      enabled: true
+      # max_age_days: 1
+    
+    - id: "futu-hk"
+      name: "富途港股新闻"
+      url: "https://news.futunn.com/hk/rss"
+      enabled: true
+      # max_age_days: 1
+    
+    - id: "futu-us"
+      name: "富途美股新闻"
+      url: "https://news.futunn.com/us/rss"
+      enabled: true
+      # max_age_days: 1
 
     # 自定义源示例
     # - id: "custom-feed"
