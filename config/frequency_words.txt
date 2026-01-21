@@ -149,63 +149,156 @@
 #                         企业与品牌
 # ═══════════════════════════════════════════════════════════════
 
-/胖东来|于东来/ => 胖东来
+[3033恒科成分股]
 
-/DeepSeek|梁文锋/i => DeepSeek
+# 中芯国际 (港股: 0981.HK, A股: 688981.SH)
+/中芯国际|SMIC|\b0981\.HK\b|688981\.SH|00981\.HK/i => 中芯国际
 
-/华为|鸿蒙|HarmonyOS|任正非/i => 华为
+# 阿里巴巴 (港股: 9988.HK, 美股: BABA)
+/阿里巴巴|Alibaba|淘宝|天猫|马云|阿里云|\b9988\.HK\b|09988\.HK|BABA|BABAF/i => 阿里巴巴
 
-/比亚迪|王传福|byd/i => 比亚迪
+# 美团 (港股: 3690.HK)
+/美团|Meituan|美团外卖|王兴|\b3690\.HK\b|03690\.HK/i => 美团
 
-/大疆|\bDJI\b/i => 大疆
+# 腾讯控股 (港股: 0700.HK, 美股: TCEHY)
+/腾讯|Tencent|腾讯控股|微信|QQ|马化腾|\b0700\.HK\b|00700\.HK|TCEHY|TCTZF/i => 腾讯控股
 
-/宇树|王兴兴|Unitree/ => 宇树机器人
+# 比亚迪股份 (港股: 1211.HK, A股: 002594.SZ, 00285.HK)
+/比亚迪|BYD|比亚迪股份|比亚迪电子|王传福|\b1211\.HK\b|01211\.HK|002594\.SZ|00285\.HK/i => 比亚迪
 
-/智元|灵犀|稚晖君|彭志辉|AgiBot/ => 智元机器人
-/众擎|EngineAI|赵同阳/ => 众擎机器人
+# 网易 (港股: 9999.HK, 美股: NTES)
+/网易|NetEase|网易游戏|丁磊|\b9999\.HK\b|09999\.HK|NTES|NTEAF/i => 网易
 
+# 小米集团 (港股: 1810.HK)
+/小米|Xiaomi|小米手机|Redmi|雷军|\b1810\.HK\b|01810\.HK/i => 小米集团
 
-/京东|刘强东/ => 京东
+# 快手 (港股: 1024.HK)
+/快手|Kuaishou|快手短视频|宿华|程一笑|\b1024\.HK\b|01024\.HK/i => 快手
 
-/字节|bytedance|张一鸣/i => 字节跳动
+# 京东集团 (港股: 9618.HK, 美股: JD)
+/京东|JD\.com|京东商城|刘强东|\b9618\.HK\b|09618\.HK|JD|JD\.US/i => 京东集团
 
-/qwen|minimax|glm/ => 国产开源模型
+# 百度集团 (港股: 9888.HK, 美股: BIDU)
+/百度|Baidu|百度搜索|李彦宏|\b9888\.HK\b|09888\.HK|BIDU|BIDU\.US/i => 百度集团
 
-/特斯拉|马斯克/ => 特斯拉
+# 小鹏汽车 (港股: 9868.HK, 美股: XPEV)
+/小鹏汽车|XPeng|何小鹏|\b9868\.HK\b|09868\.HK|XPEV|XPEV\.US/i => 小鹏汽车
 
-/英伟达|\bNVIDIA\b|黄仁勋/i => 英伟达
-/\bAMD\b/i => AMD
+# 携程集团 (港股: 9961.HK, 美股: TCOM)
+/携程|Ctrip|携程旅行|梁建章|\b9961\.HK\b|09961\.HK|TCOM|TCOM\.US/i => 携程集团
 
-/微软|\bMicrosoft\b/i => 微软
-/谷歌|\bgoogle\b|\bgemini\b|\bdeepMind\b/i => 谷歌
-/\biphone\b|\bipad\b|\bmac\b|\bios\b/i => 苹果
+# 地平线机器人 (港股: 9660.HK)
+/地平线机器人|Horizon Robotics|余凯|\b9660\.HK\b|09660\.HK/i => 地平线机器人
 
-/\bchatgpt\b|\bopenai\b|\bsora\b/i => OpenAI
-/\bclaude\b|anthropic/i => Claude
+# 理想汽车 (港股: 2015.HK, 美股: LI)
+/理想汽车|Li Auto|理想ONE|李想|\b2015\.HK\b|02015\.HK|LI|LI\.US/i => 理想汽车
 
+# 商汤 (港股: 0020.HK)
+/商汤|SenseTime|商汤科技|汤晓鸥|\b0020\.HK\b|00020\.HK/i => 商汤科技
 
-# ═══════════════════════════════════════════════════════════════
-#                         国家与地区
-# ═══════════════════════════════════════════════════════════════
+# 哔哩哔哩 (港股: 9626.HK, 美股: BILI)
+/哔哩哔哩|Bilibili|B站|陈睿|\b9626\.HK\b|09626\.HK|BILI|BILI\.US/i => 哔哩哔哩
 
-[中国]
-国产
-中国
+# 京东健康 (港股: 6618.HK)
+/京东健康|JD Health|\b6618\.HK\b|06618\.HK/i => 京东健康
 
-[东亚]
-日本
-韩国
+# 华虹半导体 (港股: 1347.HK, A股: 688347.SH)
+/华虹半导体|Hua Hong|华虹|\b1347\.HK\b|01347\.HK|688347\.SH/i => 华虹半导体
 
-[北美]
-美国
+# 联想集团 (港股: 0992.HK, 美股: LNVGY)
+/联想|Lenovo|联想集团|杨元庆|\b0992\.HK\b|00992\.HK|LNVGY|LNVGF/i => 联想集团
 
+# 海尔智家 (港股: 6690.HK, A股: 600690.SH, 美股: 690D)
+/海尔|Haier|海尔智家|张瑞敏|\b6690\.HK\b|06690\.HK|600690\.SH|690D/i => 海尔智家
 
+# 美的集团 (港股: 0300.HK, A股: 000333.SZ)
+/美的|Midea|美的集团|方洪波|\b0300\.HK\b|00300\.HK|000333\.SZ/i => 美的集团
 
-# ═══════════════════════════════════════════════════════════════
-#                         科技领域
-# ═══════════════════════════════════════════════════════════════
+# 舜宇光学科技 (港股: 2382.HK)
+/舜宇光学|舜宇|Sunny Optical|\b2382\.HK\b|02382\.HK/i => 舜宇光学科技
 
-[AI 相关]
+# 金蝶国际 (港股: 0268.HK)
+/金蝶|Kingdee|金蝶国际|徐少春|\b0268\.HK\b|00268\.HK/i => 金蝶国际
+
+# 阿里健康 (港股: 0241.HK)
+/阿里健康|Ali Health|\b0241\.HK\b|00241\.HK/i => 阿里健康
+
+# 零跑汽车 (港股: 9863.HK)
+/零跑汽车|Leapmotor|零跑|朱江明|\b9863\.HK\b|09863\.HK/i => 零跑汽车
+
+# 金山软件 (港股: 3888.HK)
+/金山软件|Kingsoft|WPS|求伯君|雷军|\b3888\.HK\b|03888\.HK/i => 金山软件
+
+# 同程旅行 (港股: 0780.HK)
+/同程旅行|同程|Tongcheng Travel|\b0780\.HK\b|00780\.HK/i => 同程旅行
+
+# 比亚迪电子 (港股: 0285.HK)
+/比亚迪电子|BYD Electronic|\b0285\.HK\b|00285\.HK/i => 比亚迪电子
+
+# 蔚来 (港股: 9866.HK, 美股: NIO)
+/蔚来|NIO|蔚来汽车|李斌|\b9866\.HK\b|09866\.HK|NIO|NIO\.US/i => 蔚来汽车
+
+# 腾讯音乐 (港股: 1698.HK, 美股: TME)
+/腾讯音乐|TME|QQ音乐|酷狗音乐|\b1698\.HK\b|01698\.HK|TME|TME\.US/i => 腾讯音乐
+
+[美股 MAG7 科技巨头]
+/苹果|Apple|AAPL|iphone|ipad|mac|ios|乔布斯|蒂姆·库克|蒂姆库克/i => 苹果
+/微软|Microsoft|MSFT|Windows|Office|比尔·盖茨|萨提亚|纳德拉/i => 微软
+/谷歌|Google|Alphabet|GOOG|GOOGL|拉里·佩奇|谢尔盖·布林|gemini|deepMind|安卓|Android/i => 谷歌
+/亚马逊|Amazon|AMZN|AWS|贝索斯|杰夫·贝索斯/i => 亚马逊
+/英伟达|NVIDIA|NVDA|黄仁勋/i => 英伟达
+/特斯拉|Tesla|TSLA|马斯克|埃隆·马斯克/i => 特斯拉
+/Meta|Facebook|FB|脸书|扎克伯格|马克·扎克伯格|Instagram|WhatsApp/i => Meta
+/AMD|Advanced Micro Devices|苏姿丰|Lisa Su/i => AMD
+
+[其他重要海外科技股]
+# 三星电子 (韩股: 005930.KS, 美股: SSNLF)
+/三星电子|三星|Samsung|\bSSNLF\b|005930\.KS|Galaxy|李在镕/i => 三星电子
+
+# SK海力士 (韩股: 000660.KS)
+/SK海力士|SK Hynix|\b000660\.KS\b/i => SK海力士
+
+# 西部数据/Western Digital (美股: WDC)
+/西部数据|Western Digital|WD|Sandisk|闪迪|\bWDC\b|WDC\.US/i => 西部数据
+
+# 美光科技 (美股: MU)
+/美光科技|美光|Micron|\bMU\b|MU\.US/i => 美光科技
+
+# AppLovin (美股: APP)
+/AppLovin|\bAPP\b|APP\.US/i => AppLovin
+
+# 台积电 (美股: TSM, 台股: 2330.TW)
+/台积电|TSMC|\bTSM\b|TSM\.US|2330\.TW|张忠谋|刘德音/i => 台积电
+
+# 英特尔 (美股: INTC)
+/英特尔|Intel|\bINTC\b|INTC\.US|帕特·基辛格/i => 英特尔
+
+# 高通 (美股: QCOM)
+/高通|Qualcomm|\bQCOM\b|QCOM\.US/i => 高通
+
+# 博通 (美股: AVGO)
+/博通|Broadcom|\bAVGO\b|AVGO\.US/i => 博通
+
+# 甲骨文 (美股: ORCL)
+/甲骨文|Oracle|\bORCL\b|ORCL\.US|拉里·埃里森/i => 甲骨文
+
+# 超微电脑/Super Micro Computer (美股: SMCI)
+/超微电脑|Super Micro|SMCI|\bSMCI\b|SMCI\.US/i => 超微电脑
+
+# 奈飞/Netflix (美股: NFLX)
+/奈飞|Netflix|\bNFLX\b|NFLX\.US/i => 奈飞
+
+# Adobe (美股: ADBE)
+/Adobe|\bADBE\b|ADBE\.US|Photoshop|Premiere/i => Adobe
+
+# 赛富时/Salesforce (美股: CRM)
+/赛富时|Salesforce|\bCRM\b|CRM\.US|马克·贝尼奥夫/i => Salesforce
+
+## AI相关重点公司
+/OpenAI|ChatGPT|Sora|Sam Altman|奥特曼/i => OpenAI
+/Claude|Anthropic/i => Claude
+/Midjourney/i => Midjourney
+/Stability AI|Stable Diffusion/i => Stability AI
 /(?<![a-zA-Z])ai(?![a-zA-Z])/i
 人工智能
 
@@ -214,23 +307,7 @@
 光刻机
 半导体
 
-/水电|雅鲁藏布江/ => 水电
-/光伏|太阳能/ => 光伏
-核能
-能源
-
 /自动驾驶|无人驾驶|智驾/ => 自动驾驶
 
-机器人
-/机械狗|四足/ => 机器狗
-具身智能
 
-/月球|登月|火星|宇宙|飞船|航天|空间站|卫星/ => 航天
 
-# 前沿科技
-量子
-脑机
-基因
-
-# 产业政策
-生产力
