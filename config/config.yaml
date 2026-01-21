@@ -130,17 +130,16 @@ rss:
 # ===============================================================
 report:
   mode: "daily"                     # 可选: daily | current | incremental
-  display_mode: "keyword"             # 分组维度: keyword | platform
+  display_mode: "keyword"           # ✅ 关键修改：改为 keyword（按关键词分组）
                                       # keyword: 按关键词分组显示（默认）
-                                      # platform: 按平台/来源分组显示
+                                      # platform: 按平台/来源分组显示（当前错误）
 
   # 关键词组排序方式（仅 display_mode: keyword 时生效）
   # true: 按 frequency_words.txt 中的定义顺序排列
   # false: 按匹配到的热点条数排序（条数多的在前）
-  sort_by_position_first: false
+  sort_by_position_first: true      # ✅ 关键修改：改为 true，保持按文件顺序
 
   rank_threshold: 5                   # 排名高亮阈值
-
   max_news_per_keyword: 0             # 每个关键词最大显示数量（0=不限制）
 
 
@@ -161,24 +160,22 @@ display:
   # 注意：区域需同时满足两个条件才会显示：
   #   1. 在此列表中
   #   2. 下方 regions 中对应开关为 true
+display:
+  # 📋 区域显示顺序
   region_order:
-    - new_items                       # 1️⃣ 新增热点区域
-    - hotlist                         # 2️⃣ 热榜区域（关键词匹配）
+    - hotlist                         # 1️⃣ 热榜区域（关键词匹配）
+    - new_items                       # 2️⃣ 新增热点区域
     - rss                             # 3️⃣ RSS 订阅区域
     - standalone                      # 4️⃣ 独立展示区
 
   # 推送区域开关
-  # 控制各区域是否启用（配合 region_order 使用）
   regions:
     hotlist: true                     # 热榜区域（关键词匹配的热点新闻）
-    new_items: true                   # 新增热点区域（含热榜新增 + RSS 新增）
-                                      # 注：热点词汇统计中的新增标记🆕不受此配置影响
-
+    new_items: false                  # ✅ 修改：关闭新增热点区域，避免重复
     rss: true                         # RSS 订阅区域
-                                      # 开启后将对 RSS 进行关键词分析并在通知中展示
-                                      # 关闭后跳过分析，但独立展示区不受影响
+    standalone: false                 # 独立展示区
 
-    standalone: false                 # 独立展示区（完整热榜/RSS，不受关键词过滤）
+  
 
   # 📋 独立展示区配置（仅在 regions.standalone: true 时生效）
   # 用途：将指定平台的完整热榜/RSS 单独展示，不受关键词过滤影响
