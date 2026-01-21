@@ -137,7 +137,7 @@ report:
   # 关键词组排序方式（仅 display_mode: keyword 时生效）
   # true: 按 frequency_words.txt 中的定义顺序排列
   # false: 按匹配到的热点条数排序（条数多的在前）
-  sort_by_position_first: true      # ✅ 关键修改：改为 true，保持按文件顺序
+  sort_by_position_first: false      # ✅ 关键修改：改为 true，保持按文件顺序
 
   rank_threshold: 5                   # 排名高亮阈值
   max_news_per_keyword: 0             # 每个关键词最大显示数量（0=不限制）
@@ -172,7 +172,7 @@ display:
   regions:
     hotlist: true                     # 热榜区域（关键词匹配的热点新闻）
     new_items: false                  # ✅ 修改：关闭新增热点区域，避免重复
-    rss: true                         # RSS 订阅区域
+    rss: false                         # RSS 订阅区域
     standalone: false                 # 独立展示区
 
   
