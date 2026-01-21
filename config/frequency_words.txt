@@ -8,146 +8,71 @@
 [WORD_GROUPS]
 
 # ==================== 【3033成分股】板块 ====================
-[3033成分股]
-# 中芯国际
-/中芯国际|SMIC|\b0981\.HK\b|688981\.SH|00981\.HK/i
-
-# 阿里巴巴
-/阿里巴巴|Alibaba|淘宝|天猫|马云|阿里云|\b9988\.HK\b|09988\.HK|BABA|BABAF/i
-
-# 美团
-/美团|Meituan|美团外卖|王兴|\b3690\.HK\b|03690\.HK/i
-
-# 腾讯控股
-/腾讯|Tencent|腾讯控股|微信|QQ|马化腾|\b0700\.HK\b|00700\.HK|TCEHY|TCTZF/i
-
-# 比亚迪股份
-/比亚迪|BYD|比亚迪股份|比亚迪电子|王传福|\b1211\.HK\b|01211\.HK|002594\.SZ|00285\.HK/i
-
-# 网易
-/网易|NetEase|网易游戏|丁磊|\b9999\.HK\b|09999\.HK|NTES|NTEAF/i
-
-# 小米集团
-/小米|Xiaomi|小米手机|Redmi|雷军|\b1810\.HK\b|01810\.HK/i
-
-# 快手
-/快手|Kuaishou|快手短视频|宿华|程一笑|\b1024\.HK\b|01024\.HK/i
-
-# 京东集团
-/京东|JD\.com|京东商城|刘强东|\b9618\.HK\b|09618\.HK|JD|JD\.US/i
-
-# 百度集团
-/百度|Baidu|百度搜索|李彦宏|\b9888\.HK\b|09888\.HK|BIDU|BIDU\.US/i
-
-# 小鹏汽车
-/小鹏汽车|XPeng|何小鹏|\b9868\.HK\b|09868\.HK|XPEV|XPEV\.US/i
-
-# 携程集团
-/携程|Ctrip|携程旅行|梁建章|\b9961\.HK\b|09961\.HK|TCOM|TCOM\.US/i
-
-# 地平线机器人
-/地平线机器人|Horizon Robotics|余凯|\b9660\.HK\b|09660\.HK/i
-
-# 理想汽车
-/理想汽车|Li Auto|理想ONE|李想|\b2015\.HK\b|02015\.HK|LI|LI\.US/i
-
-# 商汤
-/商汤|SenseTime|商汤科技|汤晓鸥|\b0020\.HK\b|00020\.HK/i
-
-# 哔哩哔哩
-/哔哩哔哩|Bilibili|B站|陈睿|\b9626\.HK\b|09626\.HK|BILI|BILI\.US/i
-
-# 京东健康
-/京东健康|JD Health|\b6618\.HK\b|06618\.HK/i
-
-# 华虹半导体
-/华虹半导体|Hua Hong|华虹|\b1347\.HK\b|01347\.HK|688347\.SH/i
-
-# 联想集团
-/联想|Lenovo|联想集团|杨元庆|\b0992\.HK\b|00992\.HK|LNVGY|LNVGF/i
-
-# 海尔智家
-/海尔|Haier|海尔智家|张瑞敏|\b6690\.HK\b|06690\.HK|600690\.SH|690D/i
-
-# 美的集团
-/美的|Midea|美的集团|方洪波|\b0300\.HK\b|00300\.HK|000333\.SZ/i
-
-# 舜宇光学科技
-/舜宇光学|舜宇|Sunny Optical|\b2382\.HK\b|02382\.HK/i
-
-# 金蝶国际
-/金蝶|Kingdee|金蝶国际|徐少春|\b0268\.HK\b|00268\.HK/i
-
-# 阿里健康
-/阿里健康|Ali Health|\b0241\.HK\b|00241\.HK/i
-
-# 零跑汽车
-/零跑汽车|Leapmotor|零跑|朱江明|\b9863\.HK\b|09863\.HK/i
-
-# 金山软件
-/金山软件|Kingsoft|WPS|求伯君|雷军|\b3888\.HK\b|03888\.HK/i
-
-# 同程旅行
-/同程旅行|同程|Tongcheng Travel|\b0780\.HK\b|00780\.HK/i
-
-# 比亚迪电子
-/比亚迪电子|BYD Electronic|\b0285\.HK\b|00285\.HK/i
-
-# 蔚来
-/蔚来|NIO|蔚来汽车|李斌|\b9866\.HK\b|09866\.HK|NIO|NIO\.US/i
-
-# 腾讯音乐
-/腾讯音乐|TME|QQ音乐|酷狗音乐|\b1698\.HK\b|01698\.HK|TME|TME\.US/i
-
+/中芯国际|SMIC|\b0981\.HK\b|688981\.SH|00981\.HK/i => 【3033成分股】中芯国际
+/阿里巴巴|Alibaba|淘宝|天猫|马云|阿里云|\b9988\.HK\b|09988\.HK|BABA|BABAF/i => 【3033成分股】阿里巴巴
+/美团|Meituan|美团外卖|王兴|\b3690\.HK\b|03690\.HK/i => 【3033成分股】美团
+/腾讯|Tencent|腾讯控股|微信|QQ|马化腾|\b0700\.HK\b|00700\.HK|TCEHY|TCTZF/i => 【3033成分股】腾讯
+/比亚迪|BYD|比亚迪股份|比亚迪电子|王传福|\b1211\.HK\b|01211\.HK|002594\.SZ|00285\.HK/i => 【3033成分股】比亚迪
+/网易|NetEase|网易游戏|丁磊|\b9999\.HK\b|09999\.HK|NTES|NTEAF/i => 【3033成分股】网易
+/小米|Xiaomi|小米手机|Redmi|雷军|\b1810\.HK\b|01810\.HK/i => 【3033成分股】小米
+/快手|Kuaishou|快手短视频|宿华|程一笑|\b1024\.HK\b|01024\.HK/i => 【3033成分股】快手
+/京东|JD\.com|京东商城|刘强东|\b9618\.HK\b|09618\.HK|JD|JD\.US/i => 【3033成分股】京东
+/百度|Baidu|百度搜索|李彦宏|\b9888\.HK\b|09888\.HK|BIDU|BIDU\.US/i => 【3033成分股】百度
+/小鹏汽车|XPeng|何小鹏|\b9868\.HK\b|09868\.HK|XPEV|XPEV\.US/i => 【3033成分股】小鹏汽车
+/携程|Ctrip|携程旅行|梁建章|\b9961\.HK\b|09961\.HK|TCOM|TCOM\.US/i => 【3033成分股】携程
+/地平线机器人|Horizon Robotics|余凯|\b9660\.HK\b|09660\.HK/i => 【3033成分股】地平线机器人
+/理想汽车|Li Auto|理想ONE|李想|\b2015\.HK\b|02015\.HK|LI|LI\.US/i => 【3033成分股】理想汽车
+/商汤|SenseTime|商汤科技|汤晓鸥|\b0020\.HK\b|00020\.HK/i => 【3033成分股】商汤
+/哔哩哔哩|Bilibili|B站|陈睿|\b9626\.HK\b|09626\.HK|BILI|BILI\.US/i => 【3033成分股】哔哩哔哩
+/京东健康|JD Health|\b6618\.HK\b|06618\.HK/i => 【3033成分股】京东健康
+/华虹半导体|Hua Hong|华虹|\b1347\.HK\b|01347\.HK|688347\.SH/i => 【3033成分股】华虹半导体
+/联想|Lenovo|联想集团|杨元庆|\b0992\.HK\b|00992\.HK|LNVGY|LNVGF/i => 【3033成分股】联想
+/海尔|Haier|海尔智家|张瑞敏|\b6690\.HK\b|06690\.HK|600690\.SH|690D/i => 【3033成分股】海尔
+/美的|Midea|美的集团|方洪波|\b0300\.HK\b|00300\.HK|000333\.SZ/i => 【3033成分股】美的
+/舜宇光学|舜宇|Sunny Optical|\b2382\.HK\b|02382\.HK/i => 【3033成分股】舜宇光学
+/金蝶|Kingdee|金蝶国际|徐少春|\b0268\.HK\b|00268\.HK/i => 【3033成分股】金蝶
+/阿里健康|Ali Health|\b0241\.HK\b|00241\.HK/i => 【3033成分股】阿里健康
+/零跑汽车|Leapmotor|零跑|朱江明|\b9863\.HK\b|09863\.HK/i => 【3033成分股】零跑汽车
+/金山软件|Kingsoft|WPS|求伯君|雷军|\b3888\.HK\b|03888\.HK/i => 【3033成分股】金山软件
+/同程旅行|同程|Tongcheng Travel|\b0780\.HK\b|00780\.HK/i => 【3033成分股】同程旅行
+/比亚迪电子|BYD Electronic|\b0285\.HK\b|00285\.HK/i => 【3033成分股】比亚迪电子
+/蔚来|NIO|蔚来汽车|李斌|\b9866\.HK\b|09866\.HK|NIO|NIO\.US/i => 【3033成分股】蔚来
+/腾讯音乐|TME|QQ音乐|酷狗音乐|\b1698\.HK\b|01698\.HK|TME|TME\.US/i => 【3033成分股】腾讯音乐
 
 # ==================== 【美股科技】板块 ====================
-[美股科技]
-# MAG7 科技巨头
-/苹果|Apple|AAPL|iphone|ipad|mac|ios|乔布斯|蒂姆·库克|蒂姆库克/i
-/微软|Microsoft|MSFT|Windows|Office|比尔·盖茨|萨提亚|纳德拉/i
-/谷歌|Google|Alphabet|GOOG|GOOGL|拉里·佩奇|谢尔盖·布林|gemini|deepMind|安卓|Android/i
-/亚马逊|Amazon|AMZN|AWS|贝索斯|杰夫·贝索斯/i
-/英伟达|NVIDIA|NVDA|黄仁勋/i
-/特斯拉|Tesla|TSLA|马斯克|埃隆·马斯克/i
-/Meta|Facebook|FB|脸书|扎克伯格|马克·扎克伯格|Instagram|WhatsApp/i
-/AMD|Advanced Micro Devices|苏姿丰|Lisa Su/i
-
-# AI相关重点公司
-/OpenAI|ChatGPT|Sora|Sam Altman|奥特曼/i
-/Claude|Anthropic/i
-/Midjourney/i
-/Stability AI|Stable Diffusion/i
-/(?<![a-zA-Z])ai(?![a-zA-Z])/i
-人工智能
-
+/苹果|Apple|AAPL|iphone|ipad|mac|ios|乔布斯|蒂姆·库克|蒂姆库克/i => 【美股科技】苹果
+/微软|Microsoft|MSFT|Windows|Office|比尔·盖茨|萨提亚|纳德拉/i => 【美股科技】微软
+/谷歌|Google|Alphabet|GOOG|GOOGL|拉里·佩奇|谢尔盖·布林|gemini|deepMind|安卓|Android/i => 【美股科技】谷歌
+/亚马逊|Amazon|AMZN|AWS|贝索斯|杰夫·贝索斯/i => 【美股科技】亚马逊
+/英伟达|NVIDIA|NVDA|黄仁勋/i => 【美股科技】英伟达
+/特斯拉|Tesla|TSLA|马斯克|埃隆·马斯克/i => 【美股科技】特斯拉
+/Meta|Facebook|FB|脸书|扎克伯格|马克·扎克伯格|Instagram|WhatsApp/i => 【美股科技】Meta
+/AMD|Advanced Micro Devices|苏姿丰|Lisa Su/i => 【美股科技】AMD
+/OpenAI|ChatGPT|Sora|Sam Altman|奥特曼/i => 【美股科技】OpenAI
+/Claude|Anthropic/i => 【美股科技】Claude
+/Midjourney/i => 【美股科技】Midjourney
+/Stability AI|Stable Diffusion/i => 【美股科技】Stability AI
+/(?<![a-zA-Z])ai(?![a-zA-Z])/i => 【美股科技】AI
+人工智能 => 【美股科技】人工智能
 
 # ==================== 【其他科技】板块 ====================
-[其他科技]
-# 韩国公司
-/三星电子|三星|Samsung|\bSSNLF\b|005930\.KS|Galaxy|李在镕/i
-/SK海力士|SK Hynix|\b000660\.KS\b/i
-
-# 存储/半导体
-/西部数据|Western Digital|WD|Sandisk|闪迪|\bWDC\b|WDC\.US/i
-/美光科技|美光|Micron|\bMU\b|MU\.US/i
-/台积电|TSMC|\bTSM\b|TSM\.US|2330\.TW|张忠谋|刘德音/i
-/英特尔|Intel|\bINTC\b|INTC\.US|帕特·基辛格/i
-/高通|Qualcomm|\bQCOM\b|QCOM\.US/i
-/博通|Broadcom|\bAVGO\b|AVGO\.US/i
-/超微电脑|Super Micro|SMCI|\bSMCI\b|SMCI\.US/i
-芯片
-光刻机
-半导体
-
-# 其他海外科技
-/AppLovin|\bAPP\b|APP\.US/i
-/甲骨文|Oracle|\bORCL\b|ORCL\.US|拉里·埃里森/i
-/奈飞|Netflix|\bNFLX\b|NFLX\.US/i
-/Adobe|\bADBE\b|ADBE\.US|Photoshop|Premiere/i
-/赛富时|Salesforce|\bCRM\b|CRM\.US|马克·贝尼奥夫/i
-
-# 其他
-/自动驾驶|无人驾驶|智驾/ => 自动驾驶
-
+/三星电子|三星|Samsung|\bSSNLF\b|005930\.KS|Galaxy|李在镕/i => 【其他科技】三星
+/SK海力士|SK Hynix|\b000660\.KS\b/i => 【其他科技】SK海力士
+/西部数据|Western Digital|WD|Sandisk|闪迪|\bWDC\b|WDC\.US/i => 【其他科技】西部数据
+/美光科技|美光|Micron|\bMU\b|MU\.US/i => 【其他科技】美光科技
+/AppLovin|\bAPP\b|APP\.US/i => 【其他科技】AppLovin
+/台积电|TSMC|\bTSM\b|TSM\.US|2330\.TW|张忠谋|刘德音/i => 【其他科技】台积电
+/英特尔|Intel|\bINTC\b|INTC\.US|帕特·基辛格/i => 【其他科技】英特尔
+/高通|Qualcomm|\bQCOM\b|QCOM\.US/i => 【其他科技】高通
+/博通|Broadcom|\bAVGO\b|AVGO\.US/i => 【其他科技】博通
+/甲骨文|Oracle|\bORCL\b|ORCL\.US|拉里·埃里森/i => 【其他科技】甲骨文
+/超微电脑|Super Micro|SMCI|\bSMCI\b|SMCI\.US/i => 【其他科技】超微电脑
+/奈飞|Netflix|\bNFLX\b|NFLX\.US/i => 【其他科技】奈飞
+/Adobe|\bADBE\b|ADBE\.US|Photoshop|Premiere/i => 【其他科技】Adobe
+/赛富时|Salesforce|\bCRM\b|CRM\.US|马克·贝尼奥夫/i => 【其他科技】Salesforce
+芯片 => 【其他科技】芯片
+光刻机 => 【其他科技】光刻机
+半导体 => 【其他科技】半导体
+/自动驾驶|无人驾驶|智驾/ => 【其他科技】自动驾驶
 
 
